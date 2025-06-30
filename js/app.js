@@ -159,5 +159,3 @@ document.querySelector('#my-h1').innerHTML = `Welcome ${localStorage.getItem("us
       }  
 
 
-
- */
