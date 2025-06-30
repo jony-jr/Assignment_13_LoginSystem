@@ -70,6 +70,7 @@ function addUser() {
       myElem.classList.add('text-success')
       signUpSumbite.before(myElem);
       clearForm();
+      container.classList.remove("sign-up-mode");
     } else {
       myElem.innerHTML = "Email Already exist";
       signUpMail.classList.add("is-invalid");
