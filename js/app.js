@@ -144,18 +144,4 @@ if(localStorage.getItem("userName") != null) {
 document.querySelector('#my-h1').innerHTML = `Welcome ${localStorage.getItem("userName")}`
 }
 
-  var user;
-      if (localStorage.getItem("user") != null) {
-        var user = JSON.parse(localStorage.getItem("user"));
-        document.querySelector("#userName").innerHTML = user.name;
-        document.querySelector("#log-out").addEventListener("click", function () {
-            
-            window.location.href = "index.html";
-            console.log('click');
-            
-          });
-      } else {
-        document.querySelector(".welcom").innerHTML = "Obs!";
-      }  
-
 

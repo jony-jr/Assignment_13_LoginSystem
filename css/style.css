@@ -428,7 +428,10 @@ input:-internal-autofill-selected {
     -ms-border-radius: 25%;
     -o-border-radius: 25%;
 }
-nav{
+.custom-container nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 9999;
   box-shadow: -5px 5px 15px 0px rgba(39, 144, 229, 0.743);
 }
